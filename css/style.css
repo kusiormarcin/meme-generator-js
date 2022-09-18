@@ -1,0 +1,15 @@
+.canvasWorkspace__wrapper {
+    position: relative;
+    height: 800px;
+}
+
+.canvasWorkspace {
+    border: 5px solid black;
+    position: absolute;
+}
+.canvasWorkspace.with-image {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
