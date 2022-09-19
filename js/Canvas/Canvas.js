@@ -21,10 +21,7 @@ export default class Canvas {
 
         this.context = this.workspace.getContext("2d");
 
-        this.defaults = {
-            height: height,
-            width: width
-        };
+        this.defaults = { height, width };
 
         this.canvasResizeToDefault();
         
